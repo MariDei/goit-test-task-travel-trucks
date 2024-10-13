@@ -1,0 +1,29 @@
+.containerList {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerItem {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.btnList {
+  width: 145px;
+  height: 56px;
+  margin: 40px auto;
+  padding: 16px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: (var(--white));
+  border: 1px solid var(--gray-light);
+  border-radius: 200px;
+  transition: border var(--animation);
+}
+
+.btnList:hover {
+  border: 1px solid var(--button-hover);
+}

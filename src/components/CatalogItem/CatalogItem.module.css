@@ -1,0 +1,97 @@
+.containerItem {
+  width: 888px;
+  height: 368px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  border: 1px solid var(--gray-light);
+  border-radius: 20px;
+}
+
+.contentItem {
+  width: 524px;
+  height: 320px;
+}
+
+.contentTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.truckTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  color: var(--main);
+}
+
+.infoTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.priceTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.iconTitle {
+  width: 26px;
+  height: 24px;
+}
+
+.detailsItem {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 16px;
+  font-weight: 400;
+}
+
+.detailsIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.detailsLocation {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.descriptionItem {
+  margin-bottom: 24px;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.btnItem {
+  margin-top: 24px;
+  width: 166px;
+  height: 56px;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 200px;
+  color: var(--white);
+  background-color: var(--button);
+  transition: background-color var(--animation);
+  margin-top: auto;
+}
+
+.btnItem:hover,
+.btnItem:focus {
+  background-color: var(--button-hover);
+}
+
+.itemEquipments {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}

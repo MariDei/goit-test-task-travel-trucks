@@ -1,0 +1,29 @@
+.containerFilters {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titleFilter {
+  color: var(--text);
+}
+
+.btnFilter {
+  width: 166px;
+  height: 56px;
+  margin-top: 40px;
+  padding: 16px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--button);
+  border-radius: 200px;
+  transition: background-color (var--animation);
+}
+
+.btnFilter:focus,
+.btnFilter:hover {
+  background-color: var(--button-hover);
+}

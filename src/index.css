@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap');
 
 *,
 *::before,
@@ -29,8 +31,10 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 500;
+  font-style: normal;
   line-height: 1.5;
   color: var(--main);
+  background-color: var(--white);
 }
 
 h1,

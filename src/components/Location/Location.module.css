@@ -1,0 +1,36 @@
+.containerLocation {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.labelLocation {
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.iconPosition {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 35%;
+  transform: translateX(100%);
+}
+
+.inputLocation {
+  width: 360px;
+  height: 56px;
+  padding: 18px 218px 18px 42px;
+  font-weight: 400;
+  background-color: var(--inputs);
+  border-radius: 12px;
+  border: none;
+}
+
+.inputLocation::placeholder {
+  font-weight: 400;
+  color: var(--main);
+}
