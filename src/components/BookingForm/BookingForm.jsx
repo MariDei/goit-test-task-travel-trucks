@@ -1,8 +1,11 @@
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-// import toast, { Toaster } from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
+import { registerLocale } from 'react-datepicker';
+import enGB from 'date-fns/locale/en-GB';
+registerLocale('en-GB', enGB);
 import css from './BookingForm.module.css';
 
 const BookingForm = () => {
@@ -11,7 +14,7 @@ const BookingForm = () => {
   const tomorrow = new Date();
   tomorrow.setDate(tomorrow.getDate() + 1);
 
-  const bookSchema = Yup.object().shape({
+  const Schema = Yup.object().shape({
     name: Yup.string()
       .min(2, 'Too Short!')
       .max(14, 'Too Long!')
@@ -27,10 +30,9 @@ const BookingForm = () => {
   return (
     <Formik
       initialValues={initialValues}
-      validationSchema={bookSchema}
+      validationSchema={Schema}
       onSubmit={(formData, { resetForm }) => {
-        // toast.success('Successfully booked!');
-        // <Toaster position="top-center" reverseOrder={true} />;
+        toast.success('Successfully booked!');
         resetForm();
       }}
     >
@@ -76,6 +78,7 @@ const BookingForm = () => {
                     placeholderText="Booking date*"
                     dateFormat="dd.MM.yyyy"
                     className={css.fieldForm}
+                    locale="en-GB"
                   />
                 )}
               </Field>
@@ -86,7 +89,7 @@ const BookingForm = () => {
               component="div"
             />
             <Field
-              className={`${css.fieldForm} ${css.textarea}`}
+              className={`${css.fieldForm} ${css.textArea}`}
               name="comment"
               type="text"
               placeholder="Comment"
@@ -98,6 +101,7 @@ const BookingForm = () => {
               component="div"
             />
           </div>
+
           <button className={css.btnForm} type="submit">
             Send
           </button>
