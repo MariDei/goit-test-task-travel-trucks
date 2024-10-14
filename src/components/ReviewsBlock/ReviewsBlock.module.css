@@ -1,0 +1,53 @@
+.containerRevBlock {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.containerRev {
+  width: 631px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blockRev {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.imgRev {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  color: var(--button);
+  background-color: var(--badges);
+  border-radius: 50%;
+}
+
+.nameRev {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 96px;
+  justify-content: center;
+}
+
+.stars {
+  width: 96px;
+  height: 16px;
+  display: flex;
+  gap: 4px;
+}
+
+.commentRev {
+  font-weight: 400;
+  color: var(--text);
+}

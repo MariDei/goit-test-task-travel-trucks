@@ -1,0 +1,23 @@
+.containerFeatures {
+  width: 631px;
+  height: 588px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.containerEquipment {
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: var(--inputs);
+  border-radius: 10px;
+}
+
+.titleFeatures {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}

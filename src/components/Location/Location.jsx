@@ -7,7 +7,7 @@ const Location = ({ location, setLocation }) => {
   };
 
   return (
-    <div className={css.container}>
+    <div className={css.containerLocation}>
       <label htmlFor="location" className={css.label}>
         Location
       </label>

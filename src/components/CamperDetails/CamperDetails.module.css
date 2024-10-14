@@ -1,0 +1,42 @@
+.containerDetails {
+  padding: 48px 64px 0 64px;
+}
+
+.contentTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.info {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.descriptionDetails {
+  width: 1312px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  color: var(--text);
+}

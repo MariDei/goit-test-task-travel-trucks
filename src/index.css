@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 
 :root {
-  font-family: 'Inter', sans-serif;
+  --font-family: 'Inter', sans-serif;
   --main: #101828;
   --text: #475467;
   --gray: #6c717b;
