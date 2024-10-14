@@ -50,8 +50,8 @@ const CatalogItem = ({ camper }) => {
             <h3 className={css.truckTitle}>{name}</h3>
             <div className={css.infoTitle}>
               <p className={css.priceTitle}>€{price}.00</p>
-              <button onClick={handleFavoriteClick}>
-                <svg className={css.iconTitle}>
+              <button className={css.btnIcon} onClick={handleFavoriteClick}>
+                <svg className={css.icon}>
                   <use
                     href={`${icons}#${
                       isFavorite ? 'icon-heart-pressed' : 'icon-heart'
