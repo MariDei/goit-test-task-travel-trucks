@@ -18,6 +18,7 @@
 ### To implement the functionality of the application, a ready-made API backend is used, which is available at the [link] https://66b1f8e71ca8ad33d4f5f63e.mockapi.io/campers
 
 Its main endpoints are:
+
 - #### GET /campers
   to get all ads (filtering must be done on the backend, not the frontend;
 - #### GET /campers/:id
@@ -33,6 +34,7 @@ Its main endpoints are:
 - Axios for inquiries.
 - React Loader Spinner to display information loading during asynchronous
   requests.
+- React Date Picker to select a date on the calendar.
 - CSS modules for styling.
 
 ## Installation instructions

@@ -16,7 +16,7 @@ const ItemEquipments = ({
         {AC && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-wind'}`} />
+              <use href={`${icons}#${'icon-AC'}`} />
             </svg>
             AC
           </li>
@@ -24,7 +24,7 @@ const ItemEquipments = ({
         {automatic && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-diagram'}`} />
+              <use href={`${icons}#${'icon-Automatic'}`} />
             </svg>
             Automatic
           </li>
@@ -32,7 +32,7 @@ const ItemEquipments = ({
         {kitchen && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-cup-hot'}`} />
+              <use href={`${icons}#${'icon-Kitchen'}`} />
             </svg>
             Kitchen
           </li>
@@ -40,7 +40,7 @@ const ItemEquipments = ({
         {TV && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-tv'}`} />
+              <use href={`${icons}#${'icon-TV'}`} />
             </svg>
             TV
           </li>
@@ -48,7 +48,7 @@ const ItemEquipments = ({
         {bathroom && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-bi-droplet'}`} />
+              <use href={`${icons}#${'icon-Bathroom'}`} />
             </svg>
             Bathroom
           </li>
@@ -56,7 +56,7 @@ const ItemEquipments = ({
         {radio && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-ui-radios'}`} />
+              <use href={`${icons}#${'icon-Radio'}`} />
             </svg>
             Radio
           </li>
@@ -64,7 +64,7 @@ const ItemEquipments = ({
         {gas && (
           <li className={css.equipmentItem}>
             <svg className={css.equipmentIcon}>
-              <use xlinkHref={`${icons}#${'icon-fuel-pump'}`} />
+              <use href={`${icons}#${'icon-Gas'}`} />
             </svg>
             Gas
           </li>
