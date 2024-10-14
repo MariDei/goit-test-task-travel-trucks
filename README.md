@@ -15,15 +15,13 @@
 - СamperPage: a page of a separate camper with a detailed description of the
   selected camper, a photo gallery, user reviews, and a booking form.
 
-## To implement the functionality of the application, a ready-made API backend is used, which is available at the link:
-
-[link] https://66b1f8e71ca8ad33d4f5f63e.mockapi.io/campers
+### To implement the functionality of the application, a ready-made API backend is used, which is available at the [link] https://66b1f8e71ca8ad33d4f5f63e.mockapi.io/campers
 
 Its main endpoints are:
-
-- GET /campers to get all ads (filtering must be done on the backend, not the
-  frontend)
-- GET /campers/:id to get ad details by its ID
+- #### GET /campers
+  to get all ads (filtering must be done on the backend, not the frontend;
+- #### GET /campers/:id
+  to get ad details by its ID.
 
 ## The following frameworks and libraries were used to create TravelTrucks App:
 
